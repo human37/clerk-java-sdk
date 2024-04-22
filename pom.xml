@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.zzhorizonzz</groupId>
+    <groupId>io.github.human37</groupId>
     <artifactId>clerk-java-sdk</artifactId>
     <version>0.0.19</version>
     <name>Clerk - Java - SDK</name>
@@ -20,10 +19,10 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-    <url>https://github.com/zZHorizonZz/clerk-java-sdk</url>
+    <url>https://github.com/human37/clerk-java-sdk</url>
     <description>Clerk - Java - SDK</description>
     <scm>
-        <url>scm:git:git://github.com/zZHorizonZz/clerk-java-sdk.git</url>
+        <url>scm:git:git://github.com/human37/clerk-java-sdk.git</url>
     </scm>
 
     <properties>
@@ -43,6 +42,11 @@
             <groupId>com.microsoft.kiota</groupId>
             <artifactId>microsoft-kiota-abstractions</artifactId>
             <version>${microsoft.kiota.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.10</version>
         </dependency>
         <dependency>
             <groupId>com.microsoft.kiota</groupId>
